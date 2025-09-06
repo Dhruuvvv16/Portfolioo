@@ -34,13 +34,14 @@
             font-family: "Jersey 20", sans-serif;
             font-size: 75px;
             justify-content: center;
-            
+            text-align: center;
         }
         .main-header-content{
             display: flex;
             justify-content: center;
             font-family: "Jersey 10", sans-serif;
             font-size: 25px;
+            text-align: center;
         }
         .navigations{
             display: flex;
@@ -63,13 +64,18 @@
         #about{
             font-family: "Nanum Pen Script", cursive;
             display: grid;
-            grid-template-columns: 600px 400px;
+            grid-template-columns: minmax(200px,600px) minmax(100px,400px);
             justify-content: center;
             align-items: center;
+            gap: 10px;
         }
         #about p {
             font-size: 20px;
             padding: 70px;
+        }
+        .about-grid-content{
+            justify-content: center;
+            align-items: center;
         }
         .profile-picture{
             width: 200px;
@@ -82,7 +88,34 @@
         footer > img{
             width: 40px;
         }
-
+        @media (max-width: 600px){
+            .main-header-title{
+                font-size: 40px;
+            }
+            .main-header-content{
+                font-size: 18px;
+                margin-top: 5px;
+            }
+            header{
+                grid-template-rows:  75px 25px 30px;
+            }
+            .navigations>nav{
+                margin-top: 70px;
+            }
+            .navigations>nav>a{
+                font-size: 18px;
+            }
+            #about{
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto
+            }
+            #about p {
+                font-size: 15px;
+            }
+            .profile-picture{
+                width: 150px;
+            }
+        }
     </style>
 
 </head>
@@ -107,8 +140,13 @@
     
     <main>
         <section id="about">
-            <p>I am a curious and driven individual passionate about technology, AI, and continuous learning. I enjoy tackling challenging problems, building innovative solutions, and exploring the intersection of creativity and logic. With a strong foundation in [your skills, e.g., Python, ML, Web Development], I thrive on turning ideas into tangible projects and constantly expanding my knowledge to stay ahead in a rapidly evolving world.</p>
-            <p>Helasjkdnja fnjas fnja ddnbf adnf and fnma fnma ndfm assmn d</p>
+            <div class="about-grid-content">
+                <p>I am a curious and driven individual passionate about technology, AI, and continuous learning. I enjoy tackling challenging problems, building innovative solutions, and exploring the intersection of creativity and logic. With a strong foundation in [your skills, e.g., Python, ML, Web Development], I thrive on turning ideas into tangible projects and constantly expanding my knowledge to stay ahead in a rapidly evolving world.</p> 
+            </div>
+            <div class="about-grid-content">
+                <img class="profile-picture" src="./Images/53929.jpg">
+            </div>
+
         </section>
     </main>
 
