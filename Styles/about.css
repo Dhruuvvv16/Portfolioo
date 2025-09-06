@@ -1,0 +1,43 @@
+#about{
+    font-family: "Nanum Pen Script", cursive;
+    display: grid;
+    grid-template-columns: minmax(200px,600px) minmax(100px,400px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#about p {
+    font-size: 20px;
+    padding: 70px;
+}
+.about-grid-content{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.profile-picture{
+    width: 300px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px){
+    #about{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 0px;
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+    #about p {
+        font-size: 16px;
+        margin-top: -40px;
+    }
+    .profile-picture{
+        width: 200px;
+        margin-top: -50px;
+    }
+    .about-grid-content{
+        text-align: center;
+        
+    }
+}
