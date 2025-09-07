@@ -36,6 +36,9 @@ header{
     text-align: center;
     align-items: center;
 }
+.dot{
+    font-size: 30px;
+}
 .navigations{
     display: flex;
     align-items: center;
