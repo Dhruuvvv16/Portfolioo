@@ -35,14 +35,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: solid;
 }
 .skill-icons img{
     width: 30px;
 }
 .skill-names{
     display: flex;
-    border: solid;
     flex-wrap: wrap;
     justify-content:center;
     gap: 10px;
@@ -52,8 +50,6 @@
     margin-right: 10px;
     font-family: "Nanum Pen Script", cursive;
     font-size: 20px;
-    border: solid;
-
 }
 
 
