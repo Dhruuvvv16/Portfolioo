@@ -19,6 +19,27 @@
     width: 300px;
     border-radius: 20px;
 }
+#skill{
+    display: grid;
+    grid-template-columns: minmax(100px,400px) minmax(100px,400px);
+    grid-template-rows: 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.skill-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+}
+.skill-icons img{
+    width: 30px;
+}
+
+
 
 @media (max-width: 1000px){
     #about{
