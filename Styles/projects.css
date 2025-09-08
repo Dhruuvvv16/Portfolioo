@@ -1,3 +1,6 @@
+.card-section{
+    margin-top: 30px;
+}
 .cards{
     width: 100%;
     border: solid;
@@ -5,10 +8,13 @@
     flex-direction: rows;
     gap: 20px;
     justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
 .card-div{
     border: solid;
     min-width: 200px;
     max-width: 400px;
     min-height: 200px;
+    padding: 20px;
 }
