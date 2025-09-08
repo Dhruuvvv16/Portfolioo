@@ -14,7 +14,7 @@
     padding: 30px;
 }
 .card-div{
-    border: solid;
+    border: solid 1px;
     width: 300px;
     min-height: 200px;
     border-radius: 30px;
