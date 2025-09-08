@@ -2,6 +2,7 @@
     font-family: "Nanum Pen Script", cursive;
     display: grid;
     grid-template-columns: minmax(200px,600px) minmax(100px,400px);
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -63,7 +64,7 @@ h4{
 
 
 
-@media (max-width: 1000px){
+@media (max-width: 100px){
     #about{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
