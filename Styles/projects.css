@@ -3,7 +3,7 @@
     font-family: "Nanum Pen Script", cursive;
 }
 .cards{
-    width: 100%;
+    max-width: 1300px;
     border-top: solid rgb(201, 201, 201);
     display: flex;
     flex-direction: row;
