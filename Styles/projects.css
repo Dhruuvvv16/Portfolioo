@@ -6,7 +6,8 @@
     width: 100%;
     border-top: solid rgb(201, 201, 201);
     display: flex;
-    flex-direction: rows;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     text-align: center;
@@ -35,4 +36,16 @@
     border-radius: 5px;
     height: 25px;
     width: 50px;
+}
+
+
+@media (max-width: 100px){
+    .card-div{
+        border: solid;
+        width: 300px;
+        min-height: 200px;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 20px;
+    }
 }
