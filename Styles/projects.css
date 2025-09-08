@@ -4,13 +4,13 @@
 }
 .cards{
     width: 100%;
-    border: solid;
+    border-top: solid rgb(201, 201, 201);
     display: flex;
     flex-direction: rows;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 .card-div{
     border: solid;
@@ -19,8 +19,20 @@
     border-radius: 30px;
     padding: 10px;
     font-size: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .topic{
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
+}
+.view-button{
+    background-color: rgb(217, 217, 217);
+    border: solid 1px;
+    border-radius: 5px;
+    height: 25px;
+    width: 50px;
 }
