@@ -85,9 +85,8 @@ h4{
         
     }
     #skill{
-        margin-left: 25px;
-        margin-right: 25px;
         gap:20px;
+        border: solid;
     }
     .skill-icons{
         gap: 20px;
