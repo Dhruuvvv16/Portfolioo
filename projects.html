@@ -30,7 +30,7 @@
         </div>
 
     </header>
-
+    <div id="rainbow-glow"></div>
     <section class="card-section">
         <div class="cards">
             <div class="card-div">
@@ -55,5 +55,15 @@
         <img src="./Images/icons8-linkedin-100.png" title="LinkedIn">
         <img src="./Images/icons8-github-100.png" title="Github">
     </footer>
+
+
+    <script>
+        const glow = document.getElementById("rainbow-glow");
+
+        window.addEventListener("mousemove", (e) => {
+            glow.style.left = e.clientX + "px";
+            glow.style.top = e.clientY + "px";
+        });
+    </script>
 </body>
 </html>
