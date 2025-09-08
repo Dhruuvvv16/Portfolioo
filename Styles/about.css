@@ -64,7 +64,7 @@ h4{
 
 
 
-@media (max-width: 100px){
+@media (max-width: 1000px){
     #about{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
