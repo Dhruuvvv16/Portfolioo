@@ -20,9 +20,14 @@
 .info-section p{
     font-size: 20px;
 }
+.links{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
 .link{
     font-size: 18px;
-    display: block;
+    display: inline;
     color: black;
     text-decoration: none;
     margin-top: 10px;
@@ -33,11 +38,8 @@
     text-decoration: underline;
     transform: scale(1.01);
 }
-.info-section> a> img{
+.info-section> div> div >a> img{
     width: 50px;
-}
-.link-img{
-    display: inline;
 }
 .contact-form-section{
     display: flex;
@@ -81,6 +83,11 @@
     background-color: #eae9e9;
     font-family: "Nanum Pen Script", cursive;
     font-size: 20px;
+    transition: background-color 0.3s;
+}
+.contact-box button:hover{
+    background-color: black;
+    color: #eae9e9;
 }
 
 @media (max-width: 1000px){
