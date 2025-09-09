@@ -2,16 +2,20 @@
     text-align: center;
     margin-top: 40px;
     font-family: "Nanum Pen Script", cursive;
+    display: flex;
+    justify-content: center;
 }
 .contact-grid{
     display: grid;
     grid-template-columns: minmax(200px,600px) minmax(200px,600px);
     grid-template-rows: 1fr;
+    padding: 5px;
 }
 .info-section{
     padding-left: 70px;
     padding-right: 50px;
     text-align: left;
+    border-right: solid 1px rgb(170, 170, 170);
 }
 .info-section h3{
     font-family: "Jersey 20", sans-serif;
@@ -53,8 +57,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
     border-left: solid 1px rgb(200, 200, 200);
+    border-left: solid 1px rgb(186, 186, 186);
 }
 .contact-box{
     width: 350px;
