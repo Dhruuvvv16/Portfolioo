@@ -117,8 +117,9 @@
         gap: 0px;
     }
     .contact-form-section{
-        margin-top: -25px;
+        margin-top: -12px;
         border-left:none;
+        border-top:solid 1px rgb(189, 189, 189);
     }
     .info-section h3{
         font-family: "Jersey 20", sans-serif;
