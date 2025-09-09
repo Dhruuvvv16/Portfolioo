@@ -134,6 +134,9 @@
     .info-section> div> div >a> img{
         width: 40px;
     }
+    .contact-title{
+        font-size: 25px;
+    }
     .contact-box textarea,.contact-box input,.contact-box button{
         width: 250px;
     }
