@@ -79,6 +79,8 @@
     border: solid 1px rgb(115, 115, 115);
     border-radius: 4px;
     background-color: #eae9e9;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 20px;
 }
 
 @media (max-width: 1000px){
