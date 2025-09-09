@@ -75,3 +75,10 @@
     border: solid 1px;
     border-radius: 4px;
 }
+
+@media (max-width: 1000px){
+    .contact-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1.7fr;
+    }
+}
