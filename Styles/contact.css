@@ -10,10 +10,23 @@
     grid-template-rows: 1fr;
 }
 .info-section{
-
+    padding-left: 70px;
+    padding-right: 50px;
+    text-align: left;
 }
 .info-section h3{
     font-family: "Jersey 20", sans-serif;
+    font-size: 40px;
+}
+.info-section p{
+    font-size: 20px;
+}
+.info-section a{
+    font-size: 18px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
 }
 .contact-form-section{
     display: flex;
