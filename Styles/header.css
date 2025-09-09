@@ -108,4 +108,7 @@ header{
     .navigations>nav>a{
         font-size: 18px;
     }
+    .border-sep{
+        height: 25px;
+    }
 }
