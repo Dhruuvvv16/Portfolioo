@@ -73,6 +73,7 @@
     font-family: "Nanum Pen Script", cursive;
     font-size: 16px;
     box-shadow: 1px 1px 4px 2px rgb(178, 178, 178);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contact-box textarea{
     margin: 10px 0px;
@@ -84,6 +85,11 @@
     font-family: "Nanum Pen Script", cursive;
     font-size: 16px;
     box-shadow: 1px 1px 4px 2px rgb(178, 178, 178);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-box textarea:hover,.contact-box input:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .contact-box button{
     width: 300px;
@@ -96,7 +102,6 @@
     transition: background-color 0.3s;
     box-shadow: 1px 1px 4px 2px rgb(178, 178, 178);
 }
-
 .contact-box button:hover{
     background-color: black;
     color: #eae9e9;
@@ -109,6 +114,11 @@
     .contact-grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1.7fr;
+        gap: 0px;
+    }
+    .contact-form-section{
+        margin-top: -25px;
+        border-left:none;
     }
     .info-section h3{
         font-family: "Jersey 20", sans-serif;
