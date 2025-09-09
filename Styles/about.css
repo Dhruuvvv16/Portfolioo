@@ -47,6 +47,11 @@ h4{
 }
 .skill-icons img{
     width: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-icons img:hover {
+    transform: scale(1.25);
+    box-shadow: rgba(0,0,0,0.2);
 }
 .skill-names{
     display: flex;
@@ -55,10 +60,20 @@ h4{
     gap: 10px;
 }
 .name{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0px 7px;
     font-family: "Nanum Pen Script", cursive;
     font-size: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s, color 0.3s;
+}
+.name:hover {
+    transform: scale(1.10);
+    box-shadow: rgba(0,0,0,0.2);
+    cursor: default;
+    background-color: rgb(8, 8, 8);
+    color: rgb(222, 222, 222);
 }
 
 
