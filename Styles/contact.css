@@ -23,7 +23,6 @@
 .links{
     display: flex;
     flex-direction: column;
-    border: solid;
 }
 .link{
     font-size: 18px;
@@ -40,6 +39,14 @@
 }
 .info-section> div> div >a> img{
     width: 50px;
+    transition: transform 0.3s ease;
+}
+.info-section> div> div >a> img:hover{
+    text-decoration: underline;
+    transform: scale(1.10);
+}
+.info-section> div>a{
+    width: 130px;
 }
 .contact-form-section{
     display: flex;
