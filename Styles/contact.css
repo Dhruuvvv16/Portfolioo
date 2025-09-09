@@ -21,7 +21,7 @@
 .info-section p{
     font-size: 20px;
 }
-.info-section a{
+.link{
     font-size: 18px;
     display: block;
     color: black;
@@ -30,9 +30,15 @@
     margin-left: 4px;
     transition: transform 0.3s ease;
 }
-.info-section a:hover{
+.link:hover{
     text-decoration: underline;
     transform: scale(1.01);
+}
+.info-section> a> img{
+    width: 50px;
+}
+.link-img{
+    display: inline;
 }
 .contact-form-section{
     display: flex;
