@@ -1,6 +1,5 @@
 #contact{
     text-align: center;
-    border: solid;
     margin-top: 40px;
     font-family: "Nanum Pen Script", cursive;
 }
@@ -45,15 +44,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: solid;
+    margin-top: 20px;
 }
 .contact-box{
     width: 350px;
-    border: solid;
 }
 .contact-title{
     font-size: 30px;
-    border: solid;
+    margin-bottom: -1px;
 }
 .contact-box input{
     margin: 10px 0px;
@@ -61,6 +59,7 @@
     width: 300px;
     border: solid 1px;
     border-radius: 4px;
+    background-color: #eae9e9;
 }
 .contact-box textarea{
     margin: 10px 0px;
@@ -68,12 +67,14 @@
     width: 300px;
     border: solid 1px;
     border-radius: 4px;
+    background-color: #eae9e9;
 }
 .contact-box button{
     width: 300px;
     height: 30px;
     border: solid 1px;
     border-radius: 4px;
+    background-color: #eae9e9;
 }
 
 @media (max-width: 1000px){
