@@ -26,6 +26,10 @@
     width: 350px;
     border: solid;
 }
+.contact-title{
+    font-size: 30px;
+    border: solid;
+}
 .contact-box input{
     margin: 10px 0px;
     height: 30px;
@@ -35,8 +39,14 @@
 }
 .contact-box textarea{
     margin: 10px 0px;
-    height: 300px;
+    height: 200px;
     width: 300px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+.contact-box button{
+    width: 300px;
+    height: 30px;
     border: solid 1px;
     border-radius: 4px;
 }
