@@ -1,0 +1,34 @@
+#contact{
+    text-align: center;
+    border: solid;
+    margin-top: 40px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: minmax(200px,600px) minmax(200px,600px);
+    grid-template-rows: 1fr;
+}
+.info-section{
+
+}
+.info-section h3{
+    font-family: "Jersey 20", sans-serif;
+}
+.contact-form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+}
+.contact-box{
+    width: 300px;
+    border: solid;
+}
+.contact-box input{
+    margin: 10px 0px;
+    height: 30px;
+    width: 200px;
+    border: solid 1px;
+    border-radius: 4px;
+}
