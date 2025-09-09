@@ -110,4 +110,17 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1.7fr;
     }
+    .info-section h3{
+        font-family: "Jersey 20", sans-serif;
+        font-size: 27px;
+    }
+    .info-section p{
+        font-size: 16px;
+    }
+    .link{
+        font-size: 16px;
+    }
+    .info-section> div> div >a> img{
+        width: 40px;
+    }
 }
