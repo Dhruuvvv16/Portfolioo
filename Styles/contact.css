@@ -54,6 +54,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    border-left: solid 1px rgb(200, 200, 200);
 }
 .contact-box{
     width: 350px;
@@ -95,6 +96,9 @@
 .contact-box button:hover{
     background-color: black;
     color: #eae9e9;
+}
+.lottie{
+    align-self: center;
 }
 
 @media (max-width: 1000px){
