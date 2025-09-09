@@ -57,22 +57,26 @@
     margin: 10px 0px;
     height: 30px;
     width: 300px;
-    border: solid 1px;
+    border: solid 1px rgb(115, 115, 115);
     border-radius: 4px;
     background-color: #eae9e9;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 16px;
 }
 .contact-box textarea{
     margin: 10px 0px;
     height: 200px;
     width: 300px;
-    border: solid 1px;
+    border: solid 1px rgb(115, 115, 115);
     border-radius: 4px;
     background-color: #eae9e9;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 16px;
 }
 .contact-box button{
     width: 300px;
     height: 30px;
-    border: solid 1px;
+    border: solid 1px rgb(115, 115, 115);
     border-radius: 4px;
     background-color: #eae9e9;
 }
